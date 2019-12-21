@@ -28,13 +28,30 @@ npm install -g json-server
 Create a db.json file with some data
 
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+"cursos": [
+ {
+   "titulo": "Diseño Web Desde Cero a Avanzado 45h Curso COMPLETO",
+   "profesor": "Jose Javier Villena",
+   "clases": 389,
+   "duracion": "44:40:14",
+   "idioma": "Español",
+   "tema": "HTML, CSS",
+   "imagen": "809410_4666_6.jpg",
+   "escuela": "Udemy",
+   "origen": "2"
+ ,"orden":0, "tema":0, "ordenTema":0, "profesor":0, "ordenProfesor":0},
+ {
+   "titulo": "Aprende Bootstrap y Foundation creando un sitio dos veces",
+   "profesor": "Juan Pablo De la torre Valdez",
+   "clases": 82,
+   "duracion": "07:53:42",
+   "idioma": "Español",
+   "tema": "Bootstrap, Foundation",
+   "imagen": "358480_2f37_2.jpg",
+   "escuela": "Udemy",
+   "origen": "2"
+ ,"orden":0, "tema":0, "ordenTema":0, "profesor":0, "ordenProfesor":0}
+]
 }
 Start JSON Server
 
@@ -45,9 +62,7 @@ Loading db.json
   Done
 
   Resources
-  http://localhost:3000/posts
-  http://localhost:3000/comments
-  http://localhost:3000/profile
+  http://localhost:3000/cursos
 
   Home
   http://localhost:3000
